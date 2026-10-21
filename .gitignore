@@ -1,0 +1,35 @@
+# ===== 凭据与运行时数据（绝对不能提交）=====
+accounts.json
+api-keys.json
+usage.jsonl
+sessions.json
+conversations.json
+debug-logs.jsonl
+*.log
+gateway.log
+
+# ===== 网关二进制 =====
+*.exe
+*.tar.gz
+
+# ===== 测试产物 =====
+res_*.txt
+rr_*.txt
+s1.txt
+rt*.json
+n1.json
+r1.json
+r2.json
+r3.json
+m2.json
+tooltest/
+false
+
+# ===== 第三方源码留档（归上游仓库，不混进来）=====
+src/
+tree.json
+
+# ===== 系统垃圾 =====
+Thumbs.db
+desktop.ini
+.DS_Store
