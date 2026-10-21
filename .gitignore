@@ -33,3 +33,6 @@ tree.json
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# 本机专用版本（含真实密码）
+run-gateway.local.bat
